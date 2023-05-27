@@ -17,6 +17,7 @@ int w1x=170,w1y=300,w2x=65,w2y=180,wr=65;
 int gd=DETECT,gm;
 char data[] = "C:\\MinGW\\lib\\libbgi.a"; //static file
 initgraph(&gd, &gm, data);//opening a window
+initwindow(900,750,"MACINTOSH");//to manage size of window
 POINT curpos;//struct to obtain cursor position
 //looping for FPS 
  while(1){
